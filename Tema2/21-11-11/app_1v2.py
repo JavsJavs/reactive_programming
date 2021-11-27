@@ -61,5 +61,4 @@ async def main():
     for amateur in amateur_tasks:
         amateur.cancel()
 
-
 asyncio.run(main())
